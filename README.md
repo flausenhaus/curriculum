@@ -16,14 +16,15 @@
     1. Work through the module exercise in small groups
     1. Advanced: [TODO]
 * Today's class:
-  * Module 1: [Getting Set Up](outline/setup.md) [slides]()
-  * Module 2: [Introduction to Programming with Clojure](outline/intro.md) [slides]()
-  * Module 3: [Data Structures](outline/data_structures.md) [slides]()
-  * Module 4: [Functions](outline/functions.md) [slides]()
-  * Module 4: [More Simple Values](outline/simple_values2.md) [slides]()
-  * Module 5: [More Functions](outline/functions2.md) [slides]()
-  * Module 6: [More Data Structures](outline/data_structures2.md) [slides]()
-  * Module 7: [Flow Control](outline/flow_control.md) [slides]()
+  * Module 1: [Getting Set Up](outline/0_setup.md) [slides]()
+  * Module 2: [Introduction to Programming with Clojure](outline/1_intro.md) [slides]()
+  * Module 3: [Data Structures](outline/2_data_structures.md) [slides]()
+  * Module 4: [Functions](outline/3_functions.md) [slides]()
+  * Module 4: [More Simple Values](outline/4_simple_values2.md) [slides]()
+  * Module 5: [More Functions](outline/5_functions2.md) [slides]()
+  * Module 6: [More Data Structures](6_outline/data_structures2.md) [slides]()
+  * Module 7: [Flow Control](outline/7_flow_control.md) [slides]()
+  * [Cheatsheet](outline/cheatsheet.md).
 * And now...
   * [New exercises!](http://irc.lc/freenode/clojure/irctc)
   * [More drawing with quil](https://github.com/ClojureBridge/drawing)
