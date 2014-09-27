@@ -1,13 +1,22 @@
 ## ClojureBridge slides
 
-These slides are written with Hoplon, a ClojureScript-to-HTML
-compiler, using Reveal.js for displaying slides.
+These slides are written in Markdown, with special annotations for
+Clojure source-code hightlighting. You can build HTML slides
+targetting either revealjs or slidy using
+[Pandoc](https://github.com/jgm/pandoc/releases).
 
-In order to build the slides, you need the Clojure build tool boot
-installed. See Boot's "Getting Started" section for installation
-instructions.
-
-After installing boot, you can run boot development to compile the
-Hoplon code, watch the code for changes, and show the output on
-http://localhost:8000/ via Ring. You can run boot hoplon to just
-compile the Hoplon code.
+For OS X,
+```
+  wget https://github.com/jgm/pandoc/releases/download/1.13.1/pandoc-1.13.1-osx.pkg
+  open ./pandoc-1.13.1-osx.pkg # ... and install
+  # For a single slide ...
+  pandoc module1.md  -t slidy -s --highlight-style kate -o module1.html
+  pandoc module7.md -c assets/reveal.js/css/reveal.css \
+                    -c assets/mozilla-theme.css
+                    -c assets/reveal.js/plugin/highlight/github.min.css \
+                    --self-contained \
+                    -t slidy \
+                    -s --highlight-style pygments -o module7.html
+  # For all slides ...
+  bash build.sh
+```
