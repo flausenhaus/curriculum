@@ -23,13 +23,13 @@ error message.
 
 ~~~
   (if (> 3 1)
-    "3 is greater than 1"
-    "3 is not greater than 1")
+      "3 is greater than 1"
+      "3 is not greater than 1")
    ;; => "3 is greater than 1"
 
   (if (> 1 3)
-    "1 is greater than 3"
-    "1 is not greater than 3")
+      "1 is greater than 3"
+      "1 is not greater than 3")
   ;; => "1 is not greater than 3"
 ~~~
 
@@ -45,21 +45,22 @@ Everything except `false` or `nil`
 
 ~~~
   (if "anything other than nil or false is considered true"
-  "A string is considered true"
-  "A string is not considered true")
+      "A string is considered true"
+      "A string is not considered true")
   ;; => "A string is considered true"
 
   (if nil
-  "nil is considered true"
-  "nil is not considered true")
+      "nil is considered true"
+      "nil is not considered true")
   ;; => "nil is not considered true"
-
-  (if (get {:a 1} :b)
-  "expressions which evaluate to nil are considered true"
-  "expressions which evaluate to nil are not considered true")
-  ;; => "expressions which evaluate to nil are not considered true"
 ~~~
 
+~~~
+  (if (get {:a 1} :b)
+      "expressions evaluating to nil are considered true"
+      "expressions evaluating to nil are not considered true")
+  ;; => "expressions which evaluate to nil are not considered true"
+~~~
 
 ------------------
 
@@ -78,7 +79,7 @@ their name as a string, like so:
     ;; => "Ursula K. Le Guin"`
 ~~~
 
-* BONUS: Flexible name formatting
+# BONUS: Flexible name formatting
 
 Change `format-name` to take a second argument, `order`. If `order`
 equals `:last`, then the format should be "Last, First Middle";
@@ -149,7 +150,7 @@ otherwise, it should be "First Middle Last."
 Go back to the `average` function you created before and use `let` to
 make it easier to read.
 
-* Bonus: Ordinal numbers
+# Bonus: Ordinal numbers
 
 Given a number (positive integer), return the string representing the
 ordinal number. For many numbers, this is done by adding `th` to the
