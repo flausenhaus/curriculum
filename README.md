@@ -1,10 +1,12 @@
 # ClojureBridge Curriculum
 
 ## Friday: InstallFest
-* [Getting Set Up](outline/setup.md)
+
+* [Getting Set Up](outline/0_setup.md)
 
 ## Saturday: Workshop
-* Breakfast! Meet! Introductions!
+
+* Breakfast! Meet! Introductions! Excitement!
 * Welcome! Overview...
   * Background on ClojureBridge
   * What we hope you get out of ClojureBridge
@@ -15,19 +17,21 @@
     1. Update the related code to our application.
     1. Work through the module exercise in small groups
     1. Advanced: [TODO]
+
 * Today's class:
-  * Module 1: [Getting Set Up](outline/0_setup.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module1.html)
-  * Module 2: [Introduction to Programming with Clojure](outline/1_intro.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module2.html)
-  * Module 3: [Data Structures](outline/2_data_structures.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module3.html)
-  * Module 4: [Functions](outline/3_functions.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module4.html)
-  * Module 5: [More Simple Values](outline/4_simple_values2.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module5.html)
-  * Module 6: [More Functions](outline/5_functions2.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module6.html)
-  * Module 7: [More Data Structures](outline/6_data_structures2.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module7.html)
-  * Module 8: [Flow Control](outline/7_flow_control.md) --- [slides](http://clojurebridge-sf.github.io/curriculum/module8.html)
-  * [Cheatsheet](outline/cheatsheet.md).
-* And now...
+  * *Module 1*: [Introduction to Programming with Clojure](outline/1_intro.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module1.html))
+  * *Module 2*: [Data Structures](outline/2_data_structures.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module2.html))
+  * *Module 3*: [Functions](outline/3_functions.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module3.html))
+  * *Module 4*: [More Simple Values](outline/4_simple_values2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module4.html))
+  * *Module 5*: [More Functions](outline/5_functions2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module5.html))
+  * *Module 6*: [More Data Structures](outline/6_data_structures2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module6.html))
+  * *Module 7*: [Flow Control](outline/7_flow_control.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module7.html))
+  * [Cheatsheet](outline/cheatsheet.md)
+
+* After modules ...
   * [New exercises!](http://irc.lc/freenode/clojure/irctc)
   * [More drawing with quil](https://github.com/ClojureBridge/drawing)
+
 * Next Steps: You are now part of the Clojure Community!
   * More learning resources.
   * Working on your own projects! Open source!
