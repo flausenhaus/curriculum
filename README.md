@@ -19,13 +19,13 @@
     1. Advanced: [TODO]
 
 * Today's class:
-  * *Module 1*: [Introduction to Programming with Clojure](outline/1_intro.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module1.html))
-  * *Module 2*: [Data Structures](outline/2_data_structures.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module2.html))
-  * *Module 3*: [Functions](outline/3_functions.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module3.html))
-  * *Module 4*: [More Simple Values](outline/4_simple_values2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module4.html))
-  * *Module 5*: [More Functions](outline/5_functions2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module5.html))
-  * *Module 6*: [More Data Structures](outline/6_data_structures2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module6.html))
-  * *Module 7*: [Flow Control](outline/7_flow_control.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module7.html))
+  * **Module 1**: [Introduction to Programming with Clojure](outline/1_intro.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module1.html))
+  * **Module 2**: [Data Structures](outline/2_data_structures.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module2.html))
+  * **Module 3**: [Functions](outline/3_functions.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module3.html))
+  * **Module 4**: [More Simple Values](outline/4_simple_values2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module4.html))
+  * **Module 5**: [More Functions](outline/5_functions2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module5.html))
+  * **Module 6**: [More Data Structures](outline/6_data_structures2.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module6.html))
+  * **Module 7**: [Flow Control](outline/7_flow_control.md) ([slides](http://clojurebridge-sf.github.io/curriculum/module7.html))
   * [Cheatsheet](outline/cheatsheet.md)
 
 * After modules ...
